@@ -614,58 +614,5 @@ class Generate{
 			}
 			System.out.println();
 		}
-		
-		/*
-		for(int n=0; n<kal.length(); n++){
-			huruf = kal.charAt(n);
-			switch(huruf){
-				case 'A':
-					h=0;
-					for(int i=0; i<HURUF[h].length;i++){
-						for(int j=0; j<HURUF[h][i].length;j++){
-							System.out.print((HURUF[h][i][j]==1)?'@':' ');
-						}
-						System.out.println();
-					}
-					break;
-				case 'B':
-					h=1;
-					for(int i=0; i<HURUF[h].length;i++){
-						for(int j=0; j<HURUF[h][i].length;j++){
-							System.out.print((HURUF[h][i][j]==1)?'@':' ');
-						}
-						System.out.println();
-					}
-					break;
-				case 'C':
-					h=2;
-					for(int i=0; i<HURUF[h].length;i++){
-						for(int j=0; j<HURUF[h][i].length;j++){
-							System.out.print((HURUF[h][i][j]==1)?'@':' ');
-						}
-						System.out.println();
-					}
-					break;
-				case 'D':
-					h=3;
-					for(int i=0; i<HURUF[h].length;i++){
-						for(int j=0; j<HURUF[h][i].length;j++){
-							System.out.print((HURUF[h][i][j]==1)?'@':' ');
-						}
-						System.out.println();
-					}
-					break;
-				case 'E':
-					h=4;
-					for(int i=0; i<HURUF[h].length;i++){
-						for(int j=0; j<HURUF[h][i].length;j++){
-							System.out.print((HURUF[h][i][j]==1)?'@':' ');
-						}
-						System.out.println();
-					}
-					break;
-			}
-		}
-		*/
 	}
 }
